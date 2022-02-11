@@ -1,0 +1,39 @@
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    position: relative;
+    padding-top: 30px;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+    z-index: -1;
+    background-image: url('./img/kirov4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+.emo {
+    font-size: 40px;
+    margin: 30px;
+}
+
+.text {
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: wheat;
+}

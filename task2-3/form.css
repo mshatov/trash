@@ -1,0 +1,32 @@
+table, td {
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+    background-color: lightcyan;
+}
+
+.td-left {
+    text-align: left;
+}
+
+label > p {
+    margin-bottom: 5px;
+}
+
+input[type=checkbox] {
+    margin: 10px;
+}
+
+select {
+    margin: 30px;
+    width: 180px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: aquamarine;
+}

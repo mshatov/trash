@@ -1,0 +1,43 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.image {
+    border: 5px solid black;
+    width: 200px;
+    margin: 0;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    color: red;
+    font-style: italic;
+    /* text-align: center; */
+    margin: 20px;
+}
+
+.image-left {
+    margin: 20px;
+    float: left;
+    width: 200px;
+}
+.image-right {
+    margin: 20px;
+    float: right;
+    width: 300px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.text {
+    font-size: 17px;
+    text-align: justify;
+}

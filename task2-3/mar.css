@@ -1,0 +1,40 @@
+.yel {
+    font-size: 26px;
+    font-family: cursive;
+    color: red;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.blue {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    background-color: blue;
+    align-items: flex-end;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+table, tbody, td {
+    margin-top: 50px;
+    border: none;
+    border-spacing: 0;
+    padding: 0;
+}
+.aq {
+    background-color: aquamarine;
+    width: 200px;
+}
+.red {
+    background-color: tomato;
+    width: 200px;
+}

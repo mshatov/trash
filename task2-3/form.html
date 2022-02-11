@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="mailto:vasya@mail.ru" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="bold">Давайте познакомимся!</td>
+                    <td class="bold">Ваши увлечения?</td>
+                    <td class="bold">Где вы живете?</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name" class="text">
+                            <p>Как вас зовут?</p>
+                            <input type="text" name="name" id="name">
+                        </label>
+
+                        <label for="pswd" class="text">
+                            <p>Ваш пароль?</p>
+                            <input type="password" name="pswd" id="pswd">
+                        </label>
+
+                        <label for="photo" class="text">
+                            <p>Пришлите вашу фотографию</p>
+                            <input type="file" name="photo" id="photo" value="55">
+                        </label>
+
+                    </td>
+                    <td class="td-left">
+                        <input type="checkbox" name="comp" id="comp" checked>
+                        <label for="comp">Компьютеры</label>
+                        <br>
+                        <input type="checkbox" name="int" id="int">
+                        <label for="int">Интернет</label>
+                        <br>
+                        <input type="checkbox" name="trav" id="trav">
+                        <label for="trav">Путешествия и туризм</label>
+                        <br>
+                        <input type="checkbox" name="phil" id="phil">
+                        <label for="phil">Философия</label>
+                        <br>
+                        <input type="checkbox" name="misc" id="misc">
+                        <label for="misc">
+                            Другое
+                            <input type="text" name="misc-t" id="misc-t">
+                        </label>
+                    </td>
+                    <td>
+                        <select name="city" id="city" size="4">
+                            <option value="">--Выберите город--</option>
+                            <option value="dog">Москва</option>
+                            <option value="cat">Санкт-Петербург</option>
+                            <option value="hamster">Киров</option>
+                            <option value="parrot">Котельнич</option>
+                            <option value="spider">Кирово-Чепецк</option>
+                            <option value="goldfish">Владивосток</option>
+                        </select>
+                        <br>
+                        <select name="coun" id="coun">
+                            <option value="">--Выберите страну--</option>
+                            <option value="ru">Russia</option>
+                            <option value="us">USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold" colspan="3">Комментарии</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <textarea name="com" id="com" cols="20" rows="5"></textarea>
+                        <br>
+                        <input type="radio" name="num" id="num0">
+                        <label for="num0">Я впервые на этом сайте</label>
+                        <br>
+                        <input type="radio" name="num" id="num1">
+                        <label for="num1">А тут не в первый раз</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold" colspan="3">
+                        <input type="submit" value="Отправить данные">
+                        <input type="reset" value="Очистить форму">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
