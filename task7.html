@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 7</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .title {
+            position: relative;
+            width: min-content;
+            margin: 0 auto;
+        }
+
+        .title__text {
+            font-size: 80px;
+            font-weight: bold;
+            color: red;
+            margin: 10px;
+        }
+
+        .title--offset {
+            color: gray;
+            position: absolute;
+            top: -2px;
+            right: 3px;
+            margin: 0;
+            z-index: -1;
+        }
+
+        .card {
+            width: 50%;
+            display: flex;
+            border: 2px solid aquamarine;
+            background-color: beige;
+            padding: 10px;
+        }
+
+        .card__pict {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .card__text {
+            color: brown;
+            margin-left: 20px;
+        }
+
+        ul>li:nth-child(1) {
+            text-decoration: underline;
+        }
+
+        ul>li:nth-child(2) {
+            font-style: italic;
+        }
+
+        ul>li:nth-child(3) {
+            font-weight: bold;
+        }
+
+        ul>li:nth-child(4)>span {
+            font-family: monospace;
+        }
+
+        ul>li:nth-child(5)>span {
+            font-size: 30px;
+        }
+
+        li {
+            margin-left: 30px;
+        }
+
+        ul {
+            list-style: circle;
+        }
+
+        .text {
+            line-height: 2;
+            width: 40%;
+            margin-left: 30px;
+        }
+
+        .ybg {
+            background-color: blanchedalmond;
+        }
+
+        .letsp {
+            letter-spacing: 5px;
+        }
+
+        .upcase {
+            text-transform: uppercase;
+        }
+
+        .outer {
+            width: 30%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: brown;
+            border: 2px solid aquamarine;
+            color: azure;
+            margin-bottom: 100px;
+        }
+
+        .inner {
+            width: 80%;
+            height: 50px;
+            border: 2px solid orangered;
+            background-color: gainsboro;
+            color: black;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            position: relative;
+            width: 200px;
+            border: 2px solid goldenrod;
+        }
+
+        .p2 {
+            transform: translate(-100px, 200px);
+            z-index: 2;
+        }
+
+        .p1 {
+            transform: translate(-250px, 30px);
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <p class="title__text">CSS</p>
+            <p class="title__text title--offset">CSS</p>
+        </div>
+        <div class="card">
+            <p class="card__pict">😀</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur voluptatum a
+                alias
+                reprehenderit praesentium, fuga explicabo quia, maiores illum amet ducimus! Velit, laudantium similique
+                hic
+                molestiae molestias explicabo incidunt voluptatum.</p>
+        </div>
+        <ul>
+            Lorem ipsum, dolor
+            <li>underline</li>
+            <li>italic</li>
+            <li>bold</li>
+            <li><span>family</span></li>
+            <li><span>size</span></li>
+        </ul>
+        <p class="text">
+            Lorem ipsum<span class="ybg"> dolor sit amet,</span> consectetur adipisicing elit. Provident ratione maxime
+            voluptate commodi facilis ex
+            aliquid<span class="letsp"> rerum possimus saepe</span> quaerat, dolores delectus aperiam<span
+                class="upcase">
+                exercitationem sequi</span> labore excepturi, expedita
+            ad perferendis.
+        </p>
+        <div class="outer">
+            Внешний контейнер
+            <div class="inner">
+                Внутренний блок
+            </div>
+        </div>
+        <div>
+            <img src="./img/3.jpg" alt="" class="p3">
+            <img src="./img/2.jpg" alt="" class="p2">
+            <img src="./img/1.jpg" alt="" class="p1">
+        </div>
+    </div>
+</body>
+
+</html>
